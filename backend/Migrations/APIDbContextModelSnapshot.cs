@@ -136,7 +136,7 @@ namespace backend.Migrations
 
                     b.Property<string>("Status")
                         .IsRequired()
-                        .HasColumnType("nvarchar(15)");
+                        .HasColumnType("nvarchar(40)");
 
                     b.HasKey("ReviewID");
 
