@@ -15,7 +15,7 @@ const Rectangle = (): JSX.Element => {
                 padding: '5%',
                 borderRadius: '10px',
             }} >
-                
+                employee name
                 <OvalVignette src="/pug.jpg" alt="Descriptive Alt Text" />
             
             </div>
