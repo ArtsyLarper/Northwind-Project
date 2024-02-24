@@ -3,7 +3,7 @@
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import EmployeeList from "../components/EmployeeList";
-
+import SelectedEmployee from "../components/SelectedEmployee";
 import "../styles/InteractionsPane.css";
 import "../styles/ManagerSection.css";
 
@@ -19,6 +19,7 @@ function ManagerPage() {
           <div className="selected-employee-container">
             {/*SELECTED EMPLOYEE*/}
             <p>Selected Employee</p>
+            <SelectedEmployee /> 
           </div>
           <div className="employee-container">
             <h3>Take Me To This Employee's Performance Review</h3>
