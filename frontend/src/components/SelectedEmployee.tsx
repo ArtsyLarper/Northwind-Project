@@ -5,7 +5,7 @@ import Rectangle from './rectangle';
 
 const SelectedEmployee = () => (
     <div style={{ position: 'relative', 
-    transform: 'translate(-4%, 2%)',
+    transform: 'translate(-10%, 2%)',
     justifyContent: 'flex-end', 
     margin: '0',
     padding: '0'

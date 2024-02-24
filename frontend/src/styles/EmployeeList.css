@@ -72,3 +72,15 @@
   border-radius: 50%;
   object-fit: cover; /* Ensure the image covers the entire container */
 }
+
+.headshot-selected {
+  display:flex;
+  flex-direction: row-reverse;
+}
+
+.headshot-selectedcard {
+  width: auto;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover; /* Ensure the image covers the entire container */
+}
